@@ -1,0 +1,69 @@
+
+/* Default styles for larger screens */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+ 
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --light-color: #ecf0f1;
+  --dark-color: #2c3e50;
+  --accent-color: #e74c3c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
